@@ -1,5 +1,6 @@
+importScripts("config.js");
 
-const API_URL = "https://vaobep-backend-140613815644.asia-southeast1.run.app/api/extension";
+const API_URL = `${CONFIG.BACKEND_API_URL}/api/extension`;
 
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({

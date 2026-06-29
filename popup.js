@@ -1,6 +1,6 @@
 
-const API_BACKEND_URL = "https://vaobep-backend-140613815644.asia-southeast1.run.app";
-const FRONTEND_URL = "https://vaobep-frontend.vercel.app/"; 
+const API_BACKEND_URL = CONFIG.BACKEND_API_URL;
+const FRONTEND_URL = CONFIG.FRONTEND_URL;
 
 function getRecipeImageUrl(recipeId, cover_image) {
     if (!cover_image || cover_image === 'default.png') return 'https://via.placeholder.com/60?text=Food';

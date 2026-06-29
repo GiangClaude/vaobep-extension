@@ -1,0 +1,4 @@
+const CONFIG = {
+    BACKEND_API_URL: "NHẬP_URL_BACKEND_VÀO_ĐÂY",
+    FRONTEND_URL: "NHẬP_URL_FRONTEND_VÀO_ĐÂY"
+};
